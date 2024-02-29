@@ -52,7 +52,7 @@ button {
   background-position: center;
   background-repeat: no-repeat;
   padding-bottom: 12rem;
-  filter: brightness(100%) contrast(100%);
+  /* filter: brightness(100%) contrast(100%); */
 }
 #index-header,
 #index-subtitle {
@@ -273,10 +273,6 @@ button {
   display: flex;
   align-items: center;
   border-radius: 3px;
-  opacity: 0;
-  filter: blur(15px);
-  transition: all 2s;
-  transform: translateY(200px);
 }
 #index-occupation-area .area p {
   font-size: 1.6rem;
