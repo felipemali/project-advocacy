@@ -210,8 +210,8 @@ button {
   margin: 0;
 }
 .appear {
-  opacity: 1; /* Torna o texto visível */
-  transform: translateY(0); /* Move o texto para cima */
+  opacity: 1;
+  transform: translateY(0);
   transition: opacity 1s, transform 1s;
 }
 .border-title-about {
